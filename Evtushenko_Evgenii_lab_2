@@ -1,0 +1,14 @@
+#include <tchar.h>
+#include <conio.h>
+
+void _tmain(int argc, TCHAR *argv[])
+{
+	STARTUPINFO si;
+	PROCESS_INFORMATION lol;
+	WaitForSingleObject(pi.hProcess, INFINITE);
+	DWORD dwExitCode;	
+	CloseHandle(lol.hProcess);
+	CloseHandle(lol.hThread);
+	printf("CODE:  (%d).\n", 
+	GetExitCodeProcess(lol.hProcess, &dwExitCode));
+}
