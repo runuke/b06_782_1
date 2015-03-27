@@ -5,7 +5,7 @@ void _tmain(int argc, TCHAR *argv[])
 {
 	STARTUPINFO si;
 	PROCESS_INFORMATION lol;
-	WaitForSingleObject(pi.hProcess, INFINITE);
+	WaitForSingleObject(lol.hProcess, INFINITE);
 	DWORD dwExitCode;	
 	CloseHandle(lol.hProcess);
 	CloseHandle(lol.hThread);
