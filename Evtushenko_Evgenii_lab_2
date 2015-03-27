@@ -1,9 +1,10 @@
 #include <tchar.h>
 #include <conio.h>
+#include <Windows.h>
 
 void _tmain(int argc, TCHAR *argv[])
 {
-	STARTUPINFO si;
+	STARTUPINFO lal;
 	PROCESS_INFORMATION lol;
 	WaitForSingleObject(lol.hProcess, INFINITE);
 	DWORD dwExitCode;	
